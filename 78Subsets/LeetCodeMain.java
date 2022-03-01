@@ -3,7 +3,7 @@ package LeetCodes;
 import java.util.List;
 
 public class LeetCodeMain {
-    https://leetcode.com/submissions/detail/650977558/
+    //https://leetcode.com/submissions/detail/650977558/
     public static void main(String[] args) {
 
         int[] example = new int[]{1, 2, 3};
