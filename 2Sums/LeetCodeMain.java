@@ -2,7 +2,7 @@ package LeetCodes;
 
 import java.util.Scanner;
 public class LeetCodeMain {
-
+    //https://leetcode.com/submissions/detail/646520765/
     public static void main(String[] args) {
         Solution solution = new Solution();
         Scanner scanner = new Scanner(System.in);
