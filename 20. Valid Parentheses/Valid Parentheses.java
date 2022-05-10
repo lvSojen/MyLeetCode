@@ -29,3 +29,28 @@ class Solution {
         return stack.isEmpty();
     }
 }
+// Better
+class Solution {
+    public boolean isValid(String s) {
+        if (s.length() % 2 == 1) return false;
+        
+        Stack<Character> stack = new Stack();
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+                stack.push(')');
+            } else if (c == '{') {
+                stack.push('}');
+            } else if (c == '[') {
+                stack.push(']');
+            } else {
+                // now we have a right parenthes (finally!), it should be the same as the one on the top stack, otherwise ...
+                if (stack.isEmpty() || stack.pop() != c) {
+                    return false;
+                }
+            }
+        }
+        
+        // stack should be empty, otherwise if any "rights" left, it's bad!
+        return stack.isEmpty();
+    }
+}
