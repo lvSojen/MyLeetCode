@@ -1,0 +1,33 @@
+// Java
+// https://leetcode.com/submissions/detail/712919310/
+class Solution {
+    public String sortSentence(String s) {
+        String[] stringArray = new String[s.split(" ").length];
+        for(String element : s.split(" ")) {
+            stringArray[Character.getNumericValue(element.charAt(element.length()-1))-1] = element.substring(0,element.length()-1);
+        }
+        String output = "";
+        for(String element : stringArray) {
+            output += element+" ";
+        }
+        return output.replaceAll(".$","");
+    }
+}
+// Alternative
+class Solution {
+    public String sortSentence(String s) {
+        String[] words = s.split(" ");
+        String[] res = new String[words.length];
+        StringBuffer sb = new StringBuffer();
+        int i =0;
+        for(String st : words){
+            i = (int)(st.charAt(st.length() - 1) -'0');
+            res[i-1] = st.substring(0,st.length()-1);
+        }
+        for(i =0; i<res.length -1; i++){
+            sb.append(res[i]).append(" ");
+        }
+        sb.append(res[i]);
+        return sb.toString();
+    }
+}
