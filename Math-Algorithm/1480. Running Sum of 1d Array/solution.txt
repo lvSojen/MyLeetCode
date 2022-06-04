@@ -1,0 +1,23 @@
+// Link
+// https://leetcode.com/submissions/detail/714471463/
+class Solution {
+    public int[] runningSum(int[] nums) {
+        int total =0;
+        for(int i=0;i<nums.length;i++) {
+            total +=nums[i];
+            nums[i]=total;
+        }
+        return nums;
+    }
+}
+// Alternative
+class Solution {
+    public int[] runningSum(int[] nums) {
+      int sum=0;
+        for(int i=0;i<nums.length;i++){
+            nums[i]=nums[i]+sum;
+            sum=nums[i];
+        }
+        return nums;
+    }
+}
