@@ -1,5 +1,5 @@
 # MyLeetCode
-22/2000
+23/2000
 
 5/19/2022
 +6 leetcodes [String]
@@ -15,3 +15,4 @@
 
 6/4/2022
 +2 leetcodes [String]
++1 leetcodes [Math/Algorithm]
