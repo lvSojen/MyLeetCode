@@ -1,5 +1,5 @@
 # MyLeetCode
-21/2000
+22/2000
 
 5/19/2022
 +6 leetcodes [String]
@@ -14,4 +14,4 @@
 +1 leetcodes [String]
 
 6/4/2022
-+1 leetcodes [String]
++2 leetcodes [String]
