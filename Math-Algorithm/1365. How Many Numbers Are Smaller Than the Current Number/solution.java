@@ -43,3 +43,20 @@ class Solution {
         return res;    
     }
 }
+// Alternative
+class Solution {
+    public int[] smallerNumbersThanCurrent(int[] nums) {
+        int n = nums.length;
+        int[] ans = nums.clone();
+        Arrays.sort(nums);
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i< n; i++)
+            if(!map.containsKey(nums[i]))
+                map.put(nums[i], i);
+        //System.out.println(map);
+        for(int i = 0; i<n; i++){
+            ans[i] = map.get(ans[i]);
+        }
+        return ans;
+    }
+}
