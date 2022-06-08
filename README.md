@@ -1,5 +1,5 @@
 # MyLeetCode
-45/2000
+50/2000
 
 5/19/2022 ~ 6/1/2022
 
@@ -18,5 +18,9 @@
 +1 leetcodes [OOP]
 
 6/7/2022
+
++5 leetcodes [Math/Algorithm]
+
+6/8/2022
 
 +5 leetcodes [Math/Algorithm]
