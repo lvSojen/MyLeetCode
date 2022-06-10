@@ -1,5 +1,5 @@
 # MyLeetCode
-61/2000
+67/2000
 
 5/19/2022 ~ 6/1/2022
 
@@ -20,3 +20,10 @@
 +4 leetcodes [Array]
 +3 leetcodes [String]
 +2 leetcodes [Binary-Search]
+
+6/10/2022
+
++3 leetcodes [String]
++1 leetcodes [Two-Pointers]
++2 leetcodes [Linked-List]
+
