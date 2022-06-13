@@ -1,5 +1,5 @@
 # MyLeetCode
-72/2000
+73/2000
 
 5/19/2022 ~ 6/1/2022
 
@@ -33,3 +33,4 @@
 
 6/12/2022
 +2 leetcodes [Data Structure I]
++1 leetcodes [Array]
